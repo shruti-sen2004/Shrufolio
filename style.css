@@ -68,6 +68,16 @@ h1 {
     opacity: .9;
 }
 
+#image {
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#image.fade-out {
+    opacity: 0;
+}
+
+
 /*=======Dark Theme========*/
 .dark-theme {
     background: var(--first-color);

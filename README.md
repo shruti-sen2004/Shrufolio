@@ -1,4 +1,4 @@
-# 💻 My Portfolio Website 
+# 💻 Shrufolio - *A canvas of my digital tales*
 
 Hey there! 👋  
 Welcome to the official repository of **My personal portfolio website** – built with love and lots of CSS magic! 🎨✨
@@ -27,7 +27,7 @@ Wanna see it on your own machine? Follow these steps:
 
 1. 🍴 Fork or clone this repo  
    ```bash
-   git clone https://github.com/shruti-sen2004/Shruti_Portfolio.git
+   git clone https://github.com/shruti-sen2004/Shrufolio.git
 2. 📂 Open the folder in your code editor
 3. 🌐 Open `index.html` in your browser
 4. Boom! 💥 You’ll see the site live
@@ -38,7 +38,7 @@ Wanna see it on your own machine? Follow these steps:
 ### *In dark mode:*
 ![image](https://github.com/user-attachments/assets/19d0dc59-35f4-4673-af9d-b2cc5d8ef32a)
 
-Hop on the site and explore more yourself 🤭👉 [Portfolio Site](https://shruti-sen2004.github.io/Shruti_Portfolio) 
+Hop on the site and explore more yourself 🤭👉 [Portfolio Site](https://shruti-sen2004.github.io/Shrufolio) 
 
 *If you like this project, give it a ⭐– it keeps me motivated! 💖*
 

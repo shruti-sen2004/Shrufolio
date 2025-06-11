@@ -11,7 +11,7 @@
     --hover-color: #614fd0;
 
     /*===========Backgroung colours==========*/
-    --body-bg-color: #fefefe;
+    --body-bg-color: #f6f5fb;
     --card-bg-color: #fff;
     --modal-bg-colour: #fff;
     --bg-tansparent-color: rgba(0, 0, 0, 0.1);
@@ -72,7 +72,6 @@ h1 {
 .dark-theme {
     background: var(--first-color);
     color: var(--body-bg-color);
-
 }
 
 
@@ -587,6 +586,7 @@ header.sticky .nav-bar {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: var(--box-shadow);
+    border-bottom: 5px solid var(--second-color);
     cursor: pointer;
 }
 

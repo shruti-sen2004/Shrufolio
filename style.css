@@ -540,7 +540,7 @@ header.sticky .nav-bar{
 
 .skill-item:hover {
     transform: translateY(-5px);
-    /* box-shadow: 0px 0px 20px rgba(231, 227, 227, 0.912); */
+    /* box-shadow: 0px 0px 20px rgba(189, 186, 186, 0.912); */
     /* box-shadow: 0px 0px 20px var(--second-color); */
 }
 .skill-item img {
@@ -648,7 +648,8 @@ header.sticky .nav-bar{
 
 .project-model-body{
     position: relative;
-    max-width: 600px;
+    max-width: 40%;
+    max-height: 90%;
     padding: 40px;
     background: var(--modal-bg-colour);
     box-shadow: var(--box-shadow);
@@ -678,13 +679,17 @@ header.sticky .nav-bar{
 
 .project-model-body h3{
     font-size: 1.5em;
+    
 }
 
-.project-model-body img{
+.project-model-body img {
     width: 100%;
+    height: 250px;
     border-radius: 10px;
-    margin: 20px 0;
+    margin: 20px auto;
+    display: block;   
 }
+
 
 
 /*===========Contact section===========*/

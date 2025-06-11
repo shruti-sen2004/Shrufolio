@@ -1150,6 +1150,35 @@ footer a {
         padding: 20px;
     }
 
+    .project-model-body {
+        width: 95vw;
+        max-width: 600px;
+        max-height: 90vh;
+        overflow-y: auto;
+        padding: 20px;
+        box-sizing: border-box;
+        transform: translateY(0);
+        margin-top: 5vh;
+    }
+
+    .project-model-body img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .projects-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        justify-items: center;
+    }
+
+    .projects-list .img-card {
+        width: 98%;
+    }
+
     /*========== SKILLS SECTION============ */
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);

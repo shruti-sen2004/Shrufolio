@@ -34,9 +34,11 @@ Wanna see it on your own machine? Follow these steps:
 
 ## 📸 Sneak Peek
 ### *In light mode:*
-![image](https://github.com/user-attachments/assets/085b1f0f-edae-419d-b405-18750bd01cc7)
+![image](https://github.com/user-attachments/assets/2922543c-8cee-4653-a2fa-f0882013b6b2)
+
 ### *In dark mode:*
-![image](https://github.com/user-attachments/assets/19d0dc59-35f4-4673-af9d-b2cc5d8ef32a)
+![image](https://github.com/user-attachments/assets/a0a352c5-e496-4eb8-98c3-124e566af70e)
+
 
 Hop on the site and explore more yourself 🤭👉 [Portfolio Site](https://shruti-sen2004.github.io/Shrufolio) 
 

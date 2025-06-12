@@ -23,7 +23,7 @@ icon.onclick = function() {
         } else {
             icon.src = "images/moon.png";
             logo.src = "images/logo-light.png";
-            image.src = "images/profile-pic.png";
+            image.src = "images/profile-pic-light.png";
         }
 
         // Allow time for image source change before fade in

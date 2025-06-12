@@ -2,7 +2,7 @@
 
 :root {
     /*===========Main theme colours==========*/
-    --first-color: #0e2431;
+    --first-color: #04052e;
     --second-color: #6a59d1;
     --third-color: #827d7d;
     --forth-color: #a39d9d;
@@ -11,9 +11,9 @@
     --hover-color: #614fd0;
 
     /*===========Backgroung colours==========*/
-    --body-bg-color: #f6f5fb;
+    --body-bg-color: #eae6ff;
     --card-bg-color: #fff;
-    --modal-bg-colour: #fff;
+    --modal-bg-colour: #d9d2ff;
     --bg-tansparent-color: rgba(0, 0, 0, 0.1);
     --transparent-colour-01: rgba(0, 0, 0, 0.1);
     --transparent-colour-02: rgba(106, 89, 209, 0.1);
@@ -137,7 +137,7 @@ h1 {
 }
 
 .dark-theme .project-model-body {
-    background: #1a3442;
+    background: #0a0c43;
 }
 
 /*=======Scroll Bar========*/
@@ -1082,7 +1082,7 @@ footer a {
 
     /* ==========DARK THEME ====================*/
     .dark-theme .nav-items {
-        background: #1a3442;
+        background: #0a0c43;
     }
 }
 
@@ -1142,7 +1142,7 @@ footer a {
     }
 
     .dark-theme .nav-items {
-        background-color: #1a3442;
+        background-color: #0a0c43;;
     }
 
     .projects-list {

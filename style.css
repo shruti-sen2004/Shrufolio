@@ -406,7 +406,6 @@ header.sticky .nav-bar {
     max-width: 100%;
     min-width: 500px;
     border-radius: 10px;
-    box-shadow: var(--box-shadow);
 }
 
 .about-info .description {

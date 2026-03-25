@@ -63,9 +63,9 @@ projectcloseBtns.forEach((closeBtn) => {
 //COMMON REVEAL OPTIONS TO CREATE REVEAL ANIMATIONS
 ScrollReveal({
     reset: true,
-    distance: '30px',
-    duration: 1000,
-    delay: 50
+    distance: '10px',
+    duration: 300,
+    delay: 10
 });
 
 
@@ -76,8 +76,8 @@ ScrollReveal().reveal('.media-icons i, .contact-left li', { delay: 500, origin: 
 ScrollReveal().reveal('.home-img, .about-img', { delay: 500, origin: 'bottom' });
 ScrollReveal().reveal('.about .description, .contact-right', { delay: 600, origin: 'right' });
 ScrollReveal().reveal('.about .professional-list li', { delay: 500, origin: 'right', interval: 200 });
-ScrollReveal().reveal('.skills-description, .contact-card, .contact-left h2', { delay: 700, origin: 'left' });
-ScrollReveal().reveal('.education, .projects .img-card', { delay: 800, origin: 'bottom', interval: 200 });
+ScrollReveal().reveal('.skills-description, .contact-card, .contact-left h2', { delay: 300, origin: 'left' });
+ScrollReveal().reveal('.education, .projects .img-card', { delay: 500, origin: 'bottom', interval: 200 });
 ScrollReveal().reveal('.footer-container .group', { delay: 500, origin: 'top' });
 
 //RESPONSIVE NAVIGATION BAR

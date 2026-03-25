@@ -15,8 +15,16 @@ icon.onclick = function() {
         return;
     }
 
-    document.startViewTransition(() => {
+    document.body.style.transition = 'none';
+    image.style.transition = 'none';
+
+    const transition = document.startViewTransition(() => {
         toggleTheme();
+    });
+
+    transition.finished.then(() => {
+        document.body.style.transition = '';
+        image.style.transition = '';
     });
 }
 

@@ -77,6 +77,15 @@ h1 {
     opacity: 0;
 }
 
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.4s;
+  animation-timing-function: ease-in-out;
+}
+
+#image, .logo {
+    view-transition-name: hero-image;
+}
 
 /*=======Dark Theme========*/
 .dark-theme {

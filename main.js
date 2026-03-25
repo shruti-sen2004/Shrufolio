@@ -4,34 +4,34 @@ window.addEventListener("scroll", function () {
     header.classList.toggle("sticky", window.scrollY > 0);
 });
 
-//DARK THEME TOGGLE
-var icon = document.getElementById("icon");
-var logo = document.getElementsByClassName("logo")[0];
-var image = document.getElementById("image");
+// DARK THEME TOGGLE
+const icon = document.getElementById("icon");
+const logo = document.querySelector(".logo");
+const image = document.getElementById("image");
+
 icon.onclick = function() {
-    document.body.classList.toggle("dark-theme");
+    if (!document.startViewTransition) {
+        toggleTheme();
+        return;
+    }
 
-    // Prepare image and logo for transition
-    logo.classList.add("fade-out");
-    image.classList.add("fade-out");
+    document.startViewTransition(() => {
+        toggleTheme();
+    });
+}
 
-    setTimeout(() => {
-        if(document.body.classList.contains("dark-theme")) {
-            icon.src = "images/sun.png";
-            logo.src = "images/logo-dark.png";
-            image.src = "images/profile-pic-dark.png";
-        } else {
-            icon.src = "images/moon.png";
-            logo.src = "images/logo-light.png";
-            image.src = "images/profile-pic-light.png";
-        }
+function toggleTheme() {
+    const isDark = document.body.classList.toggle("dark-theme");
 
-        // Allow time for image source change before fade in
-        setTimeout(() => {
-            logo.classList.remove("fade-out");
-            image.classList.remove("fade-out");
-        }, 50); // Short delay to re-trigger transition
-    }, 200); // Matches transition duration in CSS
+    if (isDark) {
+        icon.src = "images/sun.png";
+        logo.src = "images/logo-dark.png";
+        image.src = "images/profile-pic-dark.png";
+    } else {
+        icon.src = "images/moon.png";
+        logo.src = "images/logo-light.png";
+        image.src = "images/profile-pic-light.png";
+    }
 }
 
 
@@ -64,7 +64,7 @@ projectcloseBtns.forEach((closeBtn) => {
 ScrollReveal({
     reset: true,
     distance: '10px',
-    duration: 300,
+    duration: 100,
     delay: 10
 });
 

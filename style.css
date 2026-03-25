@@ -78,6 +78,13 @@ h1 {
 }
 
 
+/*=======View Transition========*/
+::view-transition-old(root),
+::view-transition-new(root) {
+    animation-duration: .5s;
+    animation-timing-function: ease;
+}
+
 /*=======Dark Theme========*/
 .dark-theme {
     background: var(--first-color);

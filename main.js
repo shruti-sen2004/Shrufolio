@@ -63,22 +63,23 @@ projectcloseBtns.forEach((closeBtn) => {
 //COMMON REVEAL OPTIONS TO CREATE REVEAL ANIMATIONS
 ScrollReveal({
     reset: true,
-    distance: '10px',
-    duration: 100,
-    delay: 10
+    distance: '30px',
+    duration: 1000,
+    delay: 0,
+    easing: 'ease-out'
 });
 
 
-ScrollReveal().reveal('.home .info h2, .section-title-01, .section-title-02', { delay: 300, origin: 'left' });
-ScrollReveal().reveal('.home .info h3, .home .info p, .about-info .btn', { delay: 300, origin: 'right' });
-ScrollReveal().reveal('.home .info .btn', { delay: 300, origin: 'bottom' });
-ScrollReveal().reveal('.media-icons i, .contact-left li', { delay: 300, origin: 'left',});
-ScrollReveal().reveal('.home-img, .about-img', { delay: 300, origin: 'bottom' });
-ScrollReveal().reveal('.about .description, .contact-right', { delay:300, origin: 'right' });
-ScrollReveal().reveal('.about .professional-list li', { delay: 300, origin: 'right'});
-ScrollReveal().reveal('.skills-description, .contact-card, .contact-left h2', { delay: 300, origin: 'left' });
-ScrollReveal().reveal('.projects .img-card', { interval: 300, origin: 'bottom' })
-ScrollReveal().reveal('.footer-container .group', { delay: 300, origin: 'top' });
+ScrollReveal().reveal('.home .info h2, .section-title-01, .section-title-02', { delay: 100, origin: 'left' });
+ScrollReveal().reveal('.home .info h3, .home .info p, .about-info .btn', { delay: 150, origin: 'right' });
+ScrollReveal().reveal('.home .info .btn', { delay: 200, origin: 'bottom' });
+ScrollReveal().reveal('.media-icons i, .contact-left li', { delay: 100, origin: 'left' });
+ScrollReveal().reveal('.home-img, .about-img', { delay: 100, origin: 'bottom' });
+ScrollReveal().reveal('.about .description, .contact-right', { delay: 150, origin: 'right' });
+ScrollReveal().reveal('.about .professional-list li', { delay: 100, origin: 'right' });
+ScrollReveal().reveal('.skills-description, .contact-card, .contact-left h2', { delay: 100, origin: 'left' });
+ScrollReveal().reveal('.projects .img-card', { interval: 200, origin: 'bottom' });
+ScrollReveal().reveal('.footer-container .group', { delay: 100, origin: 'top' });
 
 //RESPONSIVE NAVIGATION BAR
 const menuBtn = document.querySelector(".nav-menu-btn");
@@ -99,7 +100,3 @@ navItems.forEach((navItem) => {
         navMenu.classList.remove("active");
     });
 });
-
-
-
-

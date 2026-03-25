@@ -69,16 +69,16 @@ ScrollReveal({
 });
 
 
-ScrollReveal().reveal('.home .info h2, .section-title-01, .section-title-02', { delay: 500, origin: 'left' });
-ScrollReveal().reveal('.home .info h3, .home .info p, .about-info .btn', { delay: 600, origin: 'right' });
-ScrollReveal().reveal('.home .info .btn', { delay: 700, origin: 'bottom' });
-ScrollReveal().reveal('.media-icons i, .contact-left li', { delay: 500, origin: 'left', interval: 200 });
-ScrollReveal().reveal('.home-img, .about-img', { delay: 500, origin: 'bottom' });
-ScrollReveal().reveal('.about .description, .contact-right', { delay: 600, origin: 'right' });
-ScrollReveal().reveal('.about .professional-list li', { delay: 500, origin: 'right', interval: 200 });
+ScrollReveal().reveal('.home .info h2, .section-title-01, .section-title-02', { delay: 300, origin: 'left' });
+ScrollReveal().reveal('.home .info h3, .home .info p, .about-info .btn', { delay: 300, origin: 'right' });
+ScrollReveal().reveal('.home .info .btn', { delay: 300, origin: 'bottom' });
+ScrollReveal().reveal('.media-icons i, .contact-left li', { delay: 300, origin: 'left',});
+ScrollReveal().reveal('.home-img, .about-img', { delay: 300, origin: 'bottom' });
+ScrollReveal().reveal('.about .description, .contact-right', { delay:300, origin: 'right' });
+ScrollReveal().reveal('.about .professional-list li', { delay: 300, origin: 'right'});
 ScrollReveal().reveal('.skills-description, .contact-card, .contact-left h2', { delay: 300, origin: 'left' });
-ScrollReveal().reveal('.education, .projects .img-card', { delay: 500, origin: 'bottom', interval: 200 });
-ScrollReveal().reveal('.footer-container .group', { delay: 500, origin: 'top' });
+ScrollReveal().reveal('.projects .img-card', { interval: 300, origin: 'bottom' })
+ScrollReveal().reveal('.footer-container .group', { delay: 300, origin: 'top' });
 
 //RESPONSIVE NAVIGATION BAR
 const menuBtn = document.querySelector(".nav-menu-btn");
